@@ -1,0 +1,282 @@
+Antecedent;Consequent
+ Weißwurst|; Breze 0,65   
+ Pfälzer Teller|; Breze 0,65|  Proz. Rabatt/Aufschl.| 
+ Proz. Rabatt/Aufschl.|; Breze 0,65|  Pfälzer Teller| 
+ Breze 0,65|  Pfälzer Teller ; Proz. Rabatt/Aufschl.   
+ Breze 0,65|  Proz. Rabatt/Aufschl. ; Pfälzer Teller   
+ Pfälzer Teller|  Proz. Rabatt/Aufschl. ; Breze 0,65   
+ Breze 0,65|  Ei 0,30 ; Port. Butter Honig ec   
+ Ei 0,30|  Port. Butter Honig ec ; Breze 0,65   
+ Ei 0,30|  Marmelade 0,35 ; belegte Backw. 1,70   
+ Ei 0,30|  belegte Backw. 1,70 ; Marmelade 0,35   
+ Marmelade 0,35|  belegte Backw. 1,70 ; Ei 0,30   
+ Kuchenhappen 1,40|  Molkereiprodukte 0,65 ; Obstbecher 0,90|  belegte Backw. 1,70| 
+ Molkereiprodukte 0,65|  belegte Backw. 1,70 ; Obstbecher 0,90   
+ Kuchenhappen 1,40|  Obstbecher 0,90 ; Molkereiprodukte 0,65|  belegte Backw. 1,70| 
+ Kuchenhappen 1,40|  Molkereiprodukte 0,65|  Obstbecher 0,90 ; belegte Backw. 1,70   
+ Kuchenhappen 1,40|  Molkereiprodukte 0,65|  belegte Backw. 1,70 ; Obstbecher 0,90   
+ Kuchenhappen 1,40|  Obstbecher 0,90|  belegte Backw. 1,70 ; Molkereiprodukte 0,65   
+ Molkereiprodukte 0,65|  Obstbecher 0,90|  belegte Backw. 1,70 ; Kuchenhappen 1,40   
+ Kuchenhappen 1,40|  Müsli to go ; belegte Backw. 1,70   
+ Brot am Haken|; O-Saft frisch   
+ Brot am Haken|  Klassik Semmel 0,30 ; Leberkäse Semmel|  O-Saft frisch| 
+ Brot am Haken|  Leberkäse Semmel ; Klassik Semmel 0,30|  O-Saft frisch| 
+ Brot am Haken|  Klassik Semmel 0,30|  Leberkäse Semmel ; O-Saft frisch   
+ Brot am Haken|  Klassik Semmel 0,30|  O-Saft frisch ; Leberkäse Semmel   
+ Brot am Haken|  Leberkäse Semmel|  O-Saft frisch ; Klassik Semmel 0,30   
+ BIO Frucht Buttermilch|  MüsliTeller ; belegte Backw. 1,40   
+ BIO Frucht Buttermilch|  belegte Backw. 1,40 ; MüsliTeller   
+ MüsliTeller|  belegte Backw. 1,40 ; BIO Frucht Buttermilch   
+ Breze 0,65|  Weißwurst Teller ; Senf 0,10   
+ Senf 0,10|  Weißwurst Teller ; Breze 0,65   
+ O-Saft frisch|  Senf 0,10 ; Breze 0,65   
+ O-Saft frisch|  Weißwurst Teller ; Breze 0,65|  Senf 0,10| 
+ Breze 0,65|  O-Saft frisch|  Senf 0,10 ; Weißwurst Teller   
+ Breze 0,65|  O-Saft frisch|  Weißwurst Teller ; Senf 0,10   
+ O-Saft frisch|  Senf 0,10|  Weißwurst Teller ; Breze 0,65   
+ Marmelade 0,35|  Teebeutel ; Molkereiprodukte 0,65   
+ Molkereiprodukte 0,65|  Teebeutel ; Marmelade 0,35   
+ BIO Back 0,45|  Obstbecher 0,90 ; Teebeutel   
+ BIO Back 0,45|  Teebeutel ; Obstbecher 0,90   
+ Obstbecher 0,90|  Teebeutel ; BIO Back 0,45   
+ BIO Molkerei 0,55 _|  Käse-Mohn Breze ; Müsli to go   
+ BIO Molkerei 0,55 _|  Müsli to go ; Käse-Mohn Breze   
+ Käse-Mohn Breze|  Müsli to go ; BIO Molkerei 0,55 _   
+ Backwaren Kuchen 1,30|  Debrecziner ; Klassik Semmel 0,30   
+ Debrecziner|  Klassik Semmel 0,30 ; Backwaren Kuchen 1,30   
+ Debrecziner|  Marmelade 0,35 ; Breze 0,65   
+ Breze 0,65|  Käse-Mohn Breze ; Debrecziner   
+ Debrecziner|  Käse-Mohn Breze ; Breze 0,65   
+ Debrecziner|  Senf 0,10 ; Breze 0,65   
+ BIO Molkerei 0,80|  Croissant 0,90 ; Breze 0,65   
+ Breze 0,65|  Croissant 0,90 ; BIO Molkerei 0,80   
+ Croissant 0,90|  Molkereiprodukte 0,65 ; Port. Butter Honig ec   
+ BIO Back 0,45|  Leberkäse Teller ; Senf 0,10   
+ BIO Back 0,45|  Senf 0,10 ; Leberkäse Teller   
+ Leberkäse Teller|  Senf 0,10 ; BIO Back 0,45   
+ BIO Molkerei 0,80|  Leberkäse Teller ; Kornsemmel 0,40|  Käse-Mohn Breze| 
+ BIO Molkerei 0,80|  Käse-Mohn Breze ; Kornsemmel 0,40   
+ BIO Molkerei 0,80|  Kornsemmel 0,40|  Käse-Mohn Breze ; Leberkäse Teller   
+ BIO Molkerei 0,80|  Kornsemmel 0,40|  Leberkäse Teller ; Käse-Mohn Breze   
+ BIO Molkerei 0,80|  Käse-Mohn Breze|  Leberkäse Teller ; Kornsemmel 0,40   
+ Leberkäse Teller|  Obst 0,40 ; Semmeln   
+ Leberkäse Teller|  Port. Butter Honig ec ; Breze 0,65|  O-Saft frisch|  Obstbecher 0,90| 
+ Leberkäse Teller|  Obstbecher 0,90 ; Breze 0,65|  O-Saft frisch|  Port. Butter Honig ec| 
+ Breze 0,65|  Leberkäse Teller|  Obstbecher 0,90 ; O-Saft frisch|  Port. Butter Honig ec| 
+ Breze 0,65|  Leberkäse Teller|  Port. Butter Honig ec ; O-Saft frisch|  Obstbecher 0,90| 
+ Leberkäse Teller|  Obstbecher 0,90|  Port. Butter Honig ec ; Breze 0,65|  O-Saft frisch| 
+ Leberkäse Teller|  O-Saft frisch ; Breze 0,65|  Obstbecher 0,90|  Port. Butter Honig ec| 
+ Leberkäse Teller|  O-Saft frisch|  Obstbecher 0,90 ; Breze 0,65|  Port. Butter Honig ec| 
+ Leberkäse Teller|  O-Saft frisch|  Port. Butter Honig ec ; Breze 0,65|  Obstbecher 0,90| 
+ Breze 0,65|  Leberkäse Teller|  O-Saft frisch ; Obstbecher 0,90|  Port. Butter Honig ec| 
+ Breze 0,65|  Leberkäse Teller|  O-Saft frisch|  Obstbecher 0,90 ; Port. Butter Honig ec   
+ Breze 0,65|  Leberkäse Teller|  O-Saft frisch|  Port. Butter Honig ec ; Obstbecher 0,90   
+ Breze 0,65|  Leberkäse Teller|  Obstbecher 0,90|  Port. Butter Honig ec ; O-Saft frisch   
+ Leberkäse Teller|  O-Saft frisch|  Obstbecher 0,90|  Port. Butter Honig ec ; Breze 0,65   
+ Kornsemmel 0,40|  Käse-Mohn Breze ; Leberkäse Teller   
+ Kornsemmel 0,40|  Leberkäse Teller ; Käse-Mohn Breze   
+ Käse-Mohn Breze|  Leberkäse Teller ; Kornsemmel 0,40   
+ BIO Joghurt Frucht|  Kornsemmel 0,40 ; Breze 0,65|  O-Saft frisch|  Obstbecher 0,90|  Port. Butter Honig ec| 
+ BIO Joghurt Frucht|  Port. Butter Honig ec ; Breze 0,65|  Kornsemmel 0,40|  O-Saft frisch|  Obstbecher 0,90| 
+ BIO Joghurt Frucht|  Obstbecher 0,90 ; Breze 0,65|  Kornsemmel 0,40|  O-Saft frisch|  Port. Butter Honig ec| 
+ BIO Joghurt Frucht|  Kornsemmel 0,40|  Obstbecher 0,90 ; Breze 0,65|  O-Saft frisch|  Port. Butter Honig ec| 
+ BIO Joghurt Frucht|  Kornsemmel 0,40|  Port. Butter Honig ec ; Breze 0,65|  O-Saft frisch|  Obstbecher 0,90| 
+ BIO Joghurt Frucht|  Obstbecher 0,90|  Port. Butter Honig ec ; Breze 0,65|  Kornsemmel 0,40|  O-Saft frisch| 
+ BIO Joghurt Frucht|  Breze 0,65 ; Kornsemmel 0,40|  O-Saft frisch|  Obstbecher 0,90|  Port. Butter Honig ec| 
+ BIO Joghurt Frucht|  Breze 0,65|  Obstbecher 0,90 ; Kornsemmel 0,40|  O-Saft frisch|  Port. Butter Honig ec| 
+ BIO Joghurt Frucht|  Breze 0,65|  Port. Butter Honig ec ; Kornsemmel 0,40|  O-Saft frisch|  Obstbecher 0,90| 
+ BIO Joghurt Frucht|  Breze 0,65|  Kornsemmel 0,40 ; O-Saft frisch|  Obstbecher 0,90|  Port. Butter Honig ec| 
+ Breze 0,65|  Kornsemmel 0,40|  Obstbecher 0,90 ; O-Saft frisch|  Port. Butter Honig ec| 
+ Breze 0,65|  Kornsemmel 0,40|  Port. Butter Honig ec ; O-Saft frisch|  Obstbecher 0,90| 
+ BIO Joghurt Frucht|  Breze 0,65|  Kornsemmel 0,40|  Obstbecher 0,90 ; O-Saft frisch|  Port. Butter Honig ec| 
+ BIO Joghurt Frucht|  Breze 0,65|  Kornsemmel 0,40|  Port. Butter Honig ec ; O-Saft frisch|  Obstbecher 0,90| 
+ BIO Joghurt Frucht|  Breze 0,65|  Obstbecher 0,90|  Port. Butter Honig ec ; Kornsemmel 0,40|  O-Saft frisch| 
+ BIO Joghurt Frucht|  Kornsemmel 0,40|  Obstbecher 0,90|  Port. Butter Honig ec ; Breze 0,65|  O-Saft frisch| 
+ Breze 0,65|  Kornsemmel 0,40|  Obstbecher 0,90|  Port. Butter Honig ec ; O-Saft frisch   
+ BIO Joghurt Frucht|  O-Saft frisch ; Breze 0,65|  Kornsemmel 0,40|  Obstbecher 0,90|  Port. Butter Honig ec| 
+ BIO Joghurt Frucht|  Breze 0,65|  O-Saft frisch ; Kornsemmel 0,40|  Obstbecher 0,90|  Port. Butter Honig ec| 
+ BIO Joghurt Frucht|  O-Saft frisch|  Obstbecher 0,90 ; Breze 0,65|  Kornsemmel 0,40|  Port. Butter Honig ec| 
+ BIO Joghurt Frucht|  O-Saft frisch|  Port. Butter Honig ec ; Breze 0,65|  Kornsemmel 0,40|  Obstbecher 0,90| 
+ BIO Joghurt Frucht|  Kornsemmel 0,40|  O-Saft frisch ; Breze 0,65|  Obstbecher 0,90|  Port. Butter Honig ec| 
+ Breze 0,65|  Kornsemmel 0,40|  O-Saft frisch ; Obstbecher 0,90|  Port. Butter Honig ec| 
+ BIO Joghurt Frucht|  Breze 0,65|  O-Saft frisch|  Obstbecher 0,90 ; Kornsemmel 0,40|  Port. Butter Honig ec| 
+ BIO Joghurt Frucht|  Breze 0,65|  O-Saft frisch|  Port. Butter Honig ec ; Kornsemmel 0,40|  Obstbecher 0,90| 
+ BIO Joghurt Frucht|  O-Saft frisch|  Obstbecher 0,90|  Port. Butter Honig ec ; Breze 0,65|  Kornsemmel 0,40| 
+ BIO Joghurt Frucht|  Breze 0,65|  Kornsemmel 0,40|  O-Saft frisch ; Obstbecher 0,90|  Port. Butter Honig ec| 
+ BIO Joghurt Frucht|  Kornsemmel 0,40|  O-Saft frisch|  Obstbecher 0,90 ; Breze 0,65|  Port. Butter Honig ec| 
+ Breze 0,65|  Kornsemmel 0,40|  O-Saft frisch|  Obstbecher 0,90 ; Port. Butter Honig ec   
+ BIO Joghurt Frucht|  Kornsemmel 0,40|  O-Saft frisch|  Port. Butter Honig ec ; Breze 0,65|  Obstbecher 0,90| 
+ Breze 0,65|  Kornsemmel 0,40|  O-Saft frisch|  Port. Butter Honig ec ; Obstbecher 0,90   
+ Kornsemmel 0,40|  O-Saft frisch|  Obstbecher 0,90|  Port. Butter Honig ec ; Breze 0,65   
+ BIO Joghurt Frucht|  Breze 0,65|  Kornsemmel 0,40|  O-Saft frisch|  Obstbecher 0,90 ; Port. Butter Honig ec   
+ BIO Joghurt Frucht|  Breze 0,65|  Kornsemmel 0,40|  O-Saft frisch|  Port. Butter Honig ec ; Obstbecher 0,90   
+ BIO Joghurt Frucht|  Breze 0,65|  Kornsemmel 0,40|  Obstbecher 0,90|  Port. Butter Honig ec ; O-Saft frisch   
+ BIO Joghurt Frucht|  Breze 0,65|  O-Saft frisch|  Obstbecher 0,90|  Port. Butter Honig ec ; Kornsemmel 0,40   
+ BIO Joghurt Frucht|  Kornsemmel 0,40|  O-Saft frisch|  Obstbecher 0,90|  Port. Butter Honig ec ; Breze 0,65   
+ Breze 0,65|  Kornsemmel 0,40|  O-Saft frisch|  Obstbecher 0,90|  Port. Butter Honig ec ; BIO Joghurt Frucht   
+ BIO Joghurt Frucht|  Käse-Mohn Breze ; Obst 0,40   
+ Käse-Mohn Breze|  Obst 0,40 ; BIO Joghurt Frucht   
+ BIO Joghurt Frucht|  belegte Backw. 1,70 ; Obst 0,40   
+ BIO Frucht Buttermilch|  Port. Butter Honig ec ; BIO Back 0,45   
+ BIO Frucht Buttermilch|  Leberkäse Semmel ; Obstbecher 0,90|  Semmeln| 
+ BIO Frucht Buttermilch|  Obstbecher 0,90 ; Leberkäse Semmel|  Semmeln| 
+ BIO Frucht Buttermilch|  Semmeln ; Leberkäse Semmel|  Obstbecher 0,90| 
+ BIO Frucht Buttermilch|  Leberkäse Semmel|  Obstbecher 0,90 ; Semmeln   
+ BIO Frucht Buttermilch|  Leberkäse Semmel|  Semmeln ; Obstbecher 0,90   
+ BIO Frucht Buttermilch|  Obstbecher 0,90|  Semmeln ; Leberkäse Semmel   
+ Key/Card-Aufladung|  Obstbecher 0,90 ; belegte Backw. 1,70   
+ Key/Card-Aufladung|  belegte Backw. 1,70 ; Obstbecher 0,90   
+ Key/Card-Rücknahme|  Leberkäse Semmel ; Semmeln   
+ Key/Card-Rücknahme|  Semmeln ; Leberkäse Semmel   
+ BIO Molkerei 0,50|  Kornsemmel 0,40 ; Port. Butter Honig ec   
+ BIO Molkerei 0,50|  Leberkäse Semmel ; Semmeln   
+ BIO Molkerei 0,50|  Semmeln ; Leberkäse Semmel   
+ BIO Molkerei 0,50|  Obstbecher 0,90 ; Breze 0,65|  Port. Butter Honig ec| 
+ BIO Molkerei 0,50|  Breze 0,65|  Obstbecher 0,90 ; Port. Butter Honig ec   
+ BIO Molkerei 0,50|  Breze 0,65|  Port. Butter Honig ec ; Obstbecher 0,90   
+ BIO Molkerei 0,50|  Obstbecher 0,90|  Port. Butter Honig ec ; Breze 0,65   
+ Butterbreze 1,10|  Molkereiprodukte 0,65 ; Kornsemmel 0,40|  Obstbecher 0,90|  Port. Butter Honig ec| 
+ Butterbreze 1,10|  Port. Butter Honig ec ; Kornsemmel 0,40|  Obstbecher 0,90| 
+ Butterbreze 1,10|  Molkereiprodukte 0,65|  Obstbecher 0,90 ; Kornsemmel 0,40|  Port. Butter Honig ec| 
+ Butterbreze 1,10|  Molkereiprodukte 0,65|  Port. Butter Honig ec ; Kornsemmel 0,40|  Obstbecher 0,90| 
+ Butterbreze 1,10|  Obstbecher 0,90|  Port. Butter Honig ec ; Kornsemmel 0,40   
+ Molkereiprodukte 0,65|  Obstbecher 0,90|  Port. Butter Honig ec ; Butterbreze 1,10|  Kornsemmel 0,40| 
+ Butterbreze 1,10|  Kornsemmel 0,40 ; Obstbecher 0,90|  Port. Butter Honig ec| 
+ Kornsemmel 0,40|  Molkereiprodukte 0,65 ; Butterbreze 1,10|  Obstbecher 0,90|  Port. Butter Honig ec| 
+ Butterbreze 1,10|  Kornsemmel 0,40|  Molkereiprodukte 0,65 ; Obstbecher 0,90|  Port. Butter Honig ec| 
+ Butterbreze 1,10|  Kornsemmel 0,40|  Obstbecher 0,90 ; Port. Butter Honig ec   
+ Kornsemmel 0,40|  Molkereiprodukte 0,65|  Obstbecher 0,90 ; Butterbreze 1,10|  Port. Butter Honig ec| 
+ Butterbreze 1,10|  Kornsemmel 0,40|  Port. Butter Honig ec ; Obstbecher 0,90   
+ Kornsemmel 0,40|  Molkereiprodukte 0,65|  Port. Butter Honig ec ; Butterbreze 1,10|  Obstbecher 0,90| 
+ Butterbreze 1,10|  Kornsemmel 0,40|  Molkereiprodukte 0,65|  Obstbecher 0,90 ; Port. Butter Honig ec   
+ Butterbreze 1,10|  Kornsemmel 0,40|  Molkereiprodukte 0,65|  Port. Butter Honig ec ; Obstbecher 0,90   
+ Butterbreze 1,10|  Kornsemmel 0,40|  Obstbecher 0,90|  Port. Butter Honig ec ; Molkereiprodukte 0,65   
+ Butterbreze 1,10|  Molkereiprodukte 0,65|  Obstbecher 0,90|  Port. Butter Honig ec ; Kornsemmel 0,40   
+ Kornsemmel 0,40|  Molkereiprodukte 0,65|  Obstbecher 0,90|  Port. Butter Honig ec ; Butterbreze 1,10   
+ Breze 0,65|  Molkereiprodukte 0,65 ; Marmelade 0,35|  O-Saft frisch|  Port. Butter Honig ec| 
+ Breze 0,65|  Marmelade 0,35|  Molkereiprodukte 0,65 ; O-Saft frisch|  Port. Butter Honig ec| 
+ Breze 0,65|  Marmelade 0,35|  Port. Butter Honig ec ; O-Saft frisch   
+ Breze 0,65|  Molkereiprodukte 0,65|  Port. Butter Honig ec ; Marmelade 0,35|  O-Saft frisch| 
+ Marmelade 0,35|  Molkereiprodukte 0,65|  Port. Butter Honig ec ; Breze 0,65|  O-Saft frisch| 
+ Molkereiprodukte 0,65|  O-Saft frisch ; Breze 0,65|  Marmelade 0,35|  Port. Butter Honig ec| 
+ Breze 0,65|  Marmelade 0,35|  O-Saft frisch ; Port. Butter Honig ec   
+ Breze 0,65|  Molkereiprodukte 0,65|  O-Saft frisch ; Marmelade 0,35|  Port. Butter Honig ec| 
+ Marmelade 0,35|  Molkereiprodukte 0,65|  O-Saft frisch ; Breze 0,65|  Port. Butter Honig ec| 
+ Molkereiprodukte 0,65|  O-Saft frisch|  Port. Butter Honig ec ; Breze 0,65|  Marmelade 0,35| 
+ Breze 0,65|  Marmelade 0,35|  Molkereiprodukte 0,65|  O-Saft frisch ; Port. Butter Honig ec   
+ Breze 0,65|  Marmelade 0,35|  Molkereiprodukte 0,65|  Port. Butter Honig ec ; O-Saft frisch   
+ Breze 0,65|  Marmelade 0,35|  O-Saft frisch|  Port. Butter Honig ec ; Molkereiprodukte 0,65   
+ Breze 0,65|  Molkereiprodukte 0,65|  O-Saft frisch|  Port. Butter Honig ec ; Marmelade 0,35   
+ Marmelade 0,35|  Molkereiprodukte 0,65|  O-Saft frisch|  Port. Butter Honig ec ; Breze 0,65   
+ Leberkäse Semmel|  Molkereiprodukte 0,65 ; Semmeln   
+ Molkereiprodukte 0,65|  Semmeln ; Leberkäse Semmel   
+ Käse-Mohn Breze|  Molkereiprodukte 0,65 ; Port. Butter Honig ec   
+ belegte Backw. 1,70|  belegte Backw. 2,30 ; Obstbecher 0,90   
+ BIO Molkerei 0,80|  Müsli to go ; Kornsemmel 0,40|  O-Saft frisch|  Port. Butter Honig ec| 
+ Kornsemmel 0,40|  Müsli to go ; O-Saft frisch|  Port. Butter Honig ec| 
+ BIO Molkerei 0,80|  Kornsemmel 0,40|  Müsli to go ; O-Saft frisch|  Port. Butter Honig ec| 
+ BIO Molkerei 0,80|  Kornsemmel 0,40|  O-Saft frisch ; Müsli to go|  Port. Butter Honig ec| 
+ BIO Molkerei 0,80|  Müsli to go|  O-Saft frisch ; Kornsemmel 0,40|  Port. Butter Honig ec| 
+ Kornsemmel 0,40|  Müsli to go|  O-Saft frisch ; Port. Butter Honig ec   
+ BIO Molkerei 0,80|  Port. Butter Honig ec ; Kornsemmel 0,40|  Müsli to go|  O-Saft frisch| 
+ BIO Molkerei 0,80|  Müsli to go|  Port. Butter Honig ec ; Kornsemmel 0,40|  O-Saft frisch| 
+ BIO Molkerei 0,80|  O-Saft frisch|  Port. Butter Honig ec ; Kornsemmel 0,40|  Müsli to go| 
+ Müsli to go|  O-Saft frisch|  Port. Butter Honig ec ; Kornsemmel 0,40   
+ BIO Molkerei 0,80|  Kornsemmel 0,40|  Port. Butter Honig ec ; Müsli to go|  O-Saft frisch| 
+ Kornsemmel 0,40|  Müsli to go|  Port. Butter Honig ec ; O-Saft frisch   
+ BIO Molkerei 0,80|  Kornsemmel 0,40|  Müsli to go|  O-Saft frisch ; Port. Butter Honig ec   
+ BIO Molkerei 0,80|  Kornsemmel 0,40|  Müsli to go|  Port. Butter Honig ec ; O-Saft frisch   
+ BIO Molkerei 0,80|  Kornsemmel 0,40|  O-Saft frisch|  Port. Butter Honig ec ; Müsli to go   
+ BIO Molkerei 0,80|  Müsli to go|  O-Saft frisch|  Port. Butter Honig ec ; Kornsemmel 0,40   
+ Kornsemmel 0,40|  Müsli to go|  O-Saft frisch|  Port. Butter Honig ec ; BIO Molkerei 0,80   
+ BIO Back 0,45|  BIO Molkerei 0,80 ; belegte Backw. 1,70   
+ BIO Molkerei 0,80|  Obstbecher 0,90 ; belegte Backw. 2,30   
+ BIO Molkerei 0,80|  Leberkäse Semmel ; Semmeln   
+ BIO Molkerei 0,80|  Semmeln ; Leberkäse Semmel   
+ O-Saft frisch|  Wiener ; Semmeln|  belegte Backw. 1,40| 
+ O-Saft frisch|  belegte Backw. 1,40 ; Semmeln   
+ O-Saft frisch|  Semmeln|  Wiener ; belegte Backw. 1,40   
+ O-Saft frisch|  Semmeln|  belegte Backw. 1,40 ; Wiener   
+ O-Saft frisch|  Wiener|  belegte Backw. 1,40 ; Semmeln   
+ Leberkäse Semmel|  Wiener ; Breze 0,65|  Semmeln| 
+ Breze 0,65|  Leberkäse Semmel|  Wiener ; Semmeln   
+ Breze 0,65|  Semmeln|  Wiener ; Leberkäse Semmel   
+ Leberkäse Semmel|  Semmeln|  Wiener ; Breze 0,65   
+ Obst 0,40|  Wiener ; Breze 0,65|  Port. Butter Honig ec| 
+ Port. Butter Honig ec|  Wiener ; Breze 0,65|  Obst 0,40| 
+ Breze 0,65|  Obst 0,40|  Port. Butter Honig ec ; Wiener   
+ Breze 0,65|  Obst 0,40|  Wiener ; Port. Butter Honig ec   
+ Breze 0,65|  Port. Butter Honig ec|  Wiener ; Obst 0,40   
+ Obst 0,40|  Port. Butter Honig ec|  Wiener ; Breze 0,65   
+ Semmeln|  belegte Backw. 1,70 ; Wiener   
+ BIO Back 0,45|  Marmelade 0,35 ; Obst 0,40|  Port. Butter Honig ec| 
+ BIO Back 0,45|  Obst 0,40 ; Marmelade 0,35|  Port. Butter Honig ec| 
+ BIO Back 0,45|  Marmelade 0,35|  Obst 0,40 ; Port. Butter Honig ec   
+ BIO Back 0,45|  Marmelade 0,35|  Port. Butter Honig ec ; Obst 0,40   
+ BIO Back 0,45|  Obst 0,40|  Port. Butter Honig ec ; Marmelade 0,35   
+ BIO Back 0,45|  Kornsemmel 0,40 ; O-Saft frisch|  Port. Butter Honig ec| 
+ BIO Back 0,45|  O-Saft frisch ; Kornsemmel 0,40|  Port. Butter Honig ec| 
+ BIO Back 0,45|  Kornsemmel 0,40|  O-Saft frisch ; Port. Butter Honig ec   
+ BIO Back 0,45|  Kornsemmel 0,40|  Port. Butter Honig ec ; O-Saft frisch   
+ BIO Back 0,45|  O-Saft frisch|  Port. Butter Honig ec ; Kornsemmel 0,40   
+ BIO Back 0,45|  Backwaren Kuchen 1,30 ; Käse-Mohn Breze   
+ BIO Back 0,45|  Leberkäse Semmel ; Käse-Mohn Breze|  Semmeln| 
+ BIO Back 0,45|  Semmeln ; Käse-Mohn Breze|  Leberkäse Semmel| 
+ BIO Back 0,45|  Käse-Mohn Breze|  Leberkäse Semmel ; Semmeln   
+ BIO Back 0,45|  Käse-Mohn Breze|  Semmeln ; Leberkäse Semmel   
+ BIO Back 0,45|  Leberkäse Semmel|  Semmeln ; Käse-Mohn Breze   
+ Marmelade 0,35|  belegte Backw. 1,40 ; Port. Butter Honig ec|  Semmeln| 
+ Marmelade 0,35|  Port. Butter Honig ec|  belegte Backw. 1,40 ; Semmeln   
+ Marmelade 0,35|  Semmeln|  belegte Backw. 1,40 ; Port. Butter Honig ec   
+ Port. Butter Honig ec|  Semmeln|  belegte Backw. 1,40 ; Marmelade 0,35   
+ Backwaren Kuchen 1,30|  Marmelade 0,35 ; O-Saft frisch|  Port. Butter Honig ec| 
+ Backwaren Kuchen 1,30|  Port. Butter Honig ec ; O-Saft frisch   
+ Backwaren Kuchen 1,30|  Marmelade 0,35|  O-Saft frisch ; Port. Butter Honig ec   
+ Backwaren Kuchen 1,30|  Marmelade 0,35|  Port. Butter Honig ec ; O-Saft frisch   
+ Backwaren Kuchen 1,30|  O-Saft frisch|  Port. Butter Honig ec ; Marmelade 0,35   
+ Käse-Mohn Breze|  Marmelade 0,35 ; Port. Butter Honig ec|  Semmeln| 
+ Käse-Mohn Breze|  Marmelade 0,35|  Port. Butter Honig ec ; Semmeln   
+ Käse-Mohn Breze|  Marmelade 0,35|  Semmeln ; Port. Butter Honig ec   
+ Käse-Mohn Breze|  Port. Butter Honig ec|  Semmeln ; Marmelade 0,35   
+ Marmelade 0,35|  O-Saft frisch|  Obstbecher 0,90 ; Port. Butter Honig ec   
+ Marmelade 0,35|  Obstbecher 0,90|  Port. Butter Honig ec ; O-Saft frisch   
+ Kornsemmel 0,40|  Marmelade 0,35|  Obst 0,40 ; Port. Butter Honig ec   
+ Marmelade 0,35|  O-Saft frisch ; Port. Butter Honig ec   
+ Port. Butter Honig ec|  Semmeln ; Marmelade 0,35   
+ Klassik Semmel 0,30|  Käse-Mohn Breze ; Backwaren Kuchen 1,30   
+ Käse-Mohn Breze|  Leberkäse Semmel ; Semmeln   
+ Leberkäse Semmel|  Obst 0,40 ; Semmeln   
+ Klassik Semmel 0,30|  Obst 0,40 ; O-Saft frisch|  Port. Butter Honig ec| 
+ Klassik Semmel 0,30|  O-Saft frisch|  Obst 0,40 ; Port. Butter Honig ec   
+ Klassik Semmel 0,30|  Obst 0,40|  Port. Butter Honig ec ; O-Saft frisch   
+ O-Saft frisch|  Obst 0,40|  Port. Butter Honig ec ; Klassik Semmel 0,30   
+ Kornsemmel 0,40|  Obst 0,40|  Obstbecher 0,90 ; Port. Butter Honig ec   
+ Obst 0,40|  Obstbecher 0,90|  Port. Butter Honig ec ; Kornsemmel 0,40   
+ Breze 0,65|  O-Saft frisch|  Obst 0,40 ; Obstbecher 0,90   
+ Breze 0,65|  Obst 0,40|  Obstbecher 0,90 ; O-Saft frisch   
+ O-Saft frisch|  Obst 0,40|  Obstbecher 0,90 ; Breze 0,65   
+ Klassik Semmel 0,30|  Leberkäse Semmel|  Obstbecher 0,90 ; Breze 0,65|  O-Saft frisch| 
+ Klassik Semmel 0,30|  O-Saft frisch|  Obstbecher 0,90 ; Breze 0,65|  Leberkäse Semmel| 
+ Leberkäse Semmel|  O-Saft frisch|  Obstbecher 0,90 ; Breze 0,65   
+ Breze 0,65|  Klassik Semmel 0,30|  Leberkäse Semmel ; O-Saft frisch|  Obstbecher 0,90| 
+ Breze 0,65|  Klassik Semmel 0,30|  Obstbecher 0,90 ; Leberkäse Semmel|  O-Saft frisch| 
+ Breze 0,65|  Leberkäse Semmel|  Obstbecher 0,90 ; O-Saft frisch   
+ Breze 0,65|  Klassik Semmel 0,30|  O-Saft frisch ; Leberkäse Semmel|  Obstbecher 0,90| 
+ Breze 0,65|  Leberkäse Semmel|  O-Saft frisch ; Obstbecher 0,90   
+ Breze 0,65|  Klassik Semmel 0,30|  Leberkäse Semmel|  O-Saft frisch ; Obstbecher 0,90   
+ Breze 0,65|  Klassik Semmel 0,30|  Leberkäse Semmel|  Obstbecher 0,90 ; O-Saft frisch   
+ Breze 0,65|  Klassik Semmel 0,30|  O-Saft frisch|  Obstbecher 0,90 ; Leberkäse Semmel   
+ Breze 0,65|  Leberkäse Semmel|  O-Saft frisch|  Obstbecher 0,90 ; Klassik Semmel 0,30   
+ Klassik Semmel 0,30|  Leberkäse Semmel|  O-Saft frisch|  Obstbecher 0,90 ; Breze 0,65   
+ Müsli to go|  Obstbecher 0,90 ; belegte Backw. 1,70   
+ Breze 0,65|  Müsli to go ; belegte Backw. 1,70   
+ Kornsemmel 0,40|  belegte Backw. 1,70 ; Obstbecher 0,90|  Port. Butter Honig ec| 
+ Port. Butter Honig ec|  belegte Backw. 1,70 ; Obstbecher 0,90   
+ Kornsemmel 0,40|  Obstbecher 0,90|  belegte Backw. 1,70 ; Port. Butter Honig ec   
+ Kornsemmel 0,40|  Port. Butter Honig ec|  belegte Backw. 1,70 ; Obstbecher 0,90   
+ Obstbecher 0,90|  Port. Butter Honig ec|  belegte Backw. 1,70 ; Kornsemmel 0,40   
+ Obstbecher 0,90|  Semmeln ; Leberkäse Semmel   
+ Breze 0,65|  Semmeln ; Leberkäse Semmel   
+ Leberkäse Semmel|  Leberkäse Semmel ; Semmeln   
+ Leberkäse Semmel|  Leberkäse Semmel|  O-Saft frisch ; Semmeln   
+ O-Saft frisch|  Semmeln ; Leberkäse Semmel   1.1428571428571

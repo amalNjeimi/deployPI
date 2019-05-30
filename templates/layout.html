@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from colorlib.com/etc/pato/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 15 May 2019 08:56:32 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/icons/loggroupe.png') }}" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css"
+        href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css"
+        href="{{ url_for('static', filename='fonts/font-awesome-4.7.0/css/font-awesome.min.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='fonts/themify/themify-icons.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='vendor/animate/animate.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css"
+        href="{{ url_for('static', filename='vendor/css-hamburgers/hamburgers.min.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css"
+        href="{{ url_for('static', filename='vendor/animsition/css/animsition.min.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='vendor/select2/select2.min.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css"
+        href="{{ url_for('static', filename='vendor/daterangepicker/daterangepicker.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='vendor/slick/slick.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css"
+        href="{{ url_for('static', filename='vendor/lightbox2/css/lightbox.min.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/util.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
+    <!--===============================================================================================-->
+    <style>
+ 
+.dropbtn {
+   color: white;
+}
+ 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+ 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightgrey;
+    min-width: 200px;
+    z-index: 1;
+}
+ 
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+ 
+.dropdown-content a:hover {background-color: white;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {color:#F19D00:;}
+ 
+</style>
+</head>
+
+<body class="animsition">
+
+    <!-- Header -->
+    <header>
+        <!-- Header desktop -->
+        <div class="wrap-menu-header gradient1 trans-0-4">
+            <div class="container h-full">
+                <div class="wrap_header trans-0-3">
+                    <!-- Logo -->
+                    <div class="logo">
+                        <a href="/index">
+                            <img src="{{ url_for('static', filename='images/icons/log3.png') }}" alt="IMG-LOGO"
+                                data-logofixed="{{ url_for('static', filename='images/icons/log5.png') }}">
+                        </a>
+                    </div>
+
+                    <!-- Menu -->
+                    <div class="wrap_menu p-l-45 p-l-0-xl">
+                        <nav class="menu">
+                            <ul class="main_menu">
+                                <!--<li>
+									<a href="index.html">Home</a>
+								</li>
+
+								<li>
+									<a href="menu.html">Menu</a>
+								</li>
+
+								<li>
+									<a href="reservation.html">Association Rules</a>
+								</li> -->
+
+                                <li>
+                                    <a href="/index">Home</a>
+                                </li>
+
+                                <li>
+                                    <a href="/contact">DataViz</a>
+                                
+                                </li>
+
+                                <li>
+                                        <a href="{{ url_for('menu', day=days[0].strftime("%d-%m-%Y")) }}">Menu</a>
+                                   
+                                </li>
+                                 <li>
+                                    <a href="#">Association Rules</a>
+<div class="dropdown" style="">
+   <i class="fa fa-caret-down"></i>
+<div class="dropdown-content">
+<a href="{{ url_for('blog', day=days[0].strftime("%d-%m-%Y")) }}">Lehel</a>
+<a href="{{ url_for('bloggiesing', day=days[0].strftime("%d-%m-%Y")) }}">Giesing</a>
+
+ 
+</div>
+</div>
+                                </li> 
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <!-- Social -->
+                    <div class="social flex-w flex-l-m p-r-20">
+                        <!--<a href="#"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-facebook m-l-21" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-twitter m-l-21" aria-hidden="true"></i></a> -->
+
+                        <button class="btn-show-sidebar m-l-33 trans-0-4"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sidebar -->
+    <aside class="sidebar trans-0-4">
+        <!-- Button Hide sidebar -->
+        <button class="btn-hide-sidebar ti-close color0-hov trans-0-4"></button>
+
+        <!-- - -->
+        <ul class="menu-sidebar p-t-95 p-b-70">
+            {% for day in days %}
+            <li class="t-center m-b-13">
+                <a href="{{ url_for('menu', day=day.strftime("%d-%m-%Y")) }}" class="txt19">{{day.strftime("%A, %d-%m")}}               </a>
+            </li>
+            {% endfor %}
+            <!--
+            <li class="t-center m-b-13">
+                <a href="/index" class="txt19">Monday</a>
+            </li>
+
+            <li class="t-center m-b-13">
+                <a href="/menu" class="txt19">Tuesday</a>
+            </li>
+
+            <li class="t-center m-b-13">
+                <a href="/gallery" class="txt19">Wednesday</a>
+            </li>
+
+            <li class="t-center m-b-13">
+                <a href="/about" class="txt19">Thursday</a>
+            </li>
+
+            <li class="t-center m-b-13">
+                <a href="/blog" class="txt19">Friday</a>
+            </li>
+            <li class="t-center">
+                <!-- Button3 -->
+                <!--
+                <a href="/reservation" class="btn3 flex-c-m size13 txt11 trans-0-4 m-l-r-auto">
+                    TODAY'S MENU
+                </a>
+            </li>
+        -->
+        </ul>
+
+        <!-- - -->
+
+        </div>
+    </aside>
+
+    {% block content%}{% endblock %}
+
+
+
+    <div class="end-footer bg2">
+        <div class="container">
+            <div class="flex-sb-m flex-w p-t-22 p-b-22">
+                <div class="p-t-5 p-b-5">
+                    <a href="#" class="fs-15 c-white"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
+                    <a href="#" class="fs-15 c-white"><i class="fa fa-facebook m-l-18" aria-hidden="true"></i></a>
+                    <a href="#" class="fs-15 c-white"><i class="fa fa-twitter m-l-18" aria-hidden="true"></i></a>
+                </div>
+
+                <div class="txt17 p-r-20 p-t-5 p-b-5">
+                    @The Aberrants ,
+                    <a href="#" class="txt18">
+                        2019
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </footer>
+
+
+    <!-- Back to top -->
+    <div class="btn-back-to-top bg0-hov" id="myBtn">
+        <span class="symbol-btn-back-to-top">
+            <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+        </span>
+    </div>
+
+    <!-- Container Selection1 -->
+    <div id="dropDownSelect1"></div>
+
+    <!-- Modal Video 01-->
+    <div class="modal fade" id="modal-video-01" tabindex="-1" role="dialog" aria-hidden="true">
+
+        <div class="modal-dialog" role="document" data-dismiss="modal">
+            <div class="close-mo-video-01 trans-0-4" data-dismiss="modal" aria-label="Close">&times;</div>
+
+            <div class="wrap-video-mo-01">
+                <div class="w-full wrap-pic-w op-0-0"><img
+                        src="{{ url_for('static', filename='images/icons/video-16-9.jpg') }}" alt="IMG"></div>
+                <div class="video-mo-01">
+                    <iframe src="https://www.youtube.com/embed/5k1hSu2gdKE?rel=0&amp;showinfo=0"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--===============================================================================================-->
+    <script data-cfasync="false" src="{{ url_for('static', filename='js/email-decode.min.js') }}"></script>
+    <script type="e8d85428bfc41a7aac8b77fa-text/javascript"
+        src="{{ url_for('static', filename='vendor/jquery/jquery-3.2.1.min.js') }}"></script>
+    <!--===============================================================================================-->
+    <script type="e8d85428bfc41a7aac8b77fa-text/javascript"
+        src="{{ url_for('static', filename='vendor/animsition/js/animsition.min.js') }}"></script>
+    <!--===============================================================================================-->
+    <script type="e8d85428bfc41a7aac8b77fa-text/javascript"
+        src="{{ url_for('static', filename='vendor/bootstrap/js/popper.js') }}"></script>
+    <script type="e8d85428bfc41a7aac8b77fa-text/javascript"
+        src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.min.js') }}"></script>
+    <!--===============================================================================================-->
+    <script type="e8d85428bfc41a7aac8b77fa-text/javascript"
+        src="{{ url_for('static', filename='vendor/select2/select2.min.js') }}"></script>
+    <!--===============================================================================================-->
+    <script type="e8d85428bfc41a7aac8b77fa-text/javascript"
+        src="{{ url_for('static', filename='vendor/daterangepicker/moment.min.js') }}"></script>
+    <script type="e8d85428bfc41a7aac8b77fa-text/javascript"
+        src="{{ url_for('static', filename='vendor/daterangepicker/daterangepicker.js') }}"></script>
+    <!--===============================================================================================-->
+    <script type="e8d85428bfc41a7aac8b77fa-text/javascript"
+        src="{{ url_for('static', filename='vendor/slick/slick.min.js') }}"></script>
+    <script type="e8d85428bfc41a7aac8b77fa-text/javascript"
+        src="{{ url_for('static', filename='js/slick-custom.js') }}"></script>
+    <!--===============================================================================================-->
+    <script type="e8d85428bfc41a7aac8b77fa-text/javascript"
+        src="{{ url_for('static', filename='vendor/parallax100/parallax100.js') }}"></script>
+    <script type="e8d85428bfc41a7aac8b77fa-text/javascript">
+        $('.parallax100').parallax100();
+	</script>
+    <!--===============================================================================================-->
+    <script type="e8d85428bfc41a7aac8b77fa-text/javascript"
+        src="{{ url_for('static', filename='vendor/countdowntime/countdowntime.js') }}"></script>
+    <!--===============================================================================================-->
+    <script type="e8d85428bfc41a7aac8b77fa-text/javascript"
+        src="{{ url_for('static', filename='vendor/lightbox2/js/lightbox.min.js') }}"></script>
+    <!--===============================================================================================-->
+    <script src="{{ url_for('static', filename='js/main.js') }}"
+        type="e8d85428bfc41a7aac8b77fa-text/javascript"></script>
+
+    <script src="{{ url_for('static', filename='js/rocket-loader.min.js') }}"
+        data-cf-settings="e8d85428bfc41a7aac8b77fa-|49" defer=""></script>
+</body>
+
+<!-- Mirrored from colorlib.com/etc/pato/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 15 May 2019 08:56:56 GMT -->
+
+</html>

@@ -1,0 +1,190 @@
+{% extends "layout.html" %}
+{% block content%}
+	
+	<!-- Header -->
+<!--<script>
+function searchString() {
+	var Sstring = $('#string').val();
+	$("td:contains('" + Sstring + "')").css("background", "lightgrey");
+	var n = $("td:contains('" + Sstring + "')").length;
+	$("td:contains('" + Sstring + "')")[0].scrollIntoView(true);
+}
+function clearSearch() {
+	var Sstring = $('#string').val();
+	if (Sstring != '') {
+		$("td:contains('" + Sstring + "')").css("background", "none");
+		$('#string').val('');
+	}
+}
+</script>-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script >
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#mytable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+
+
+	
+	<!-- Title Page -->
+	<section class="bg-title-page flex-c-m p-t-160 p-b-80 p-l-15 p-r-15" style="background-image: url({{ url_for('static', filename='images/blog-05.jpg') }});">
+		<h2 class="tit6 t-center">
+			Association Rules of
+			</br>
+			{{item}}
+		</h2>
+
+
+	</section>
+
+	
+	<!-- Lunch -->
+	<section class="section-lunch bgwhite" 		style="background-image: url({{ url_for('static', filename='images/food-bg.png') }});background-repeat:no-repeat;background-position:100% 100%;">
+	
+	<div class="container" >
+			<div class="row" style="margin-top: 100px;">
+    <div class="col-md-10 col-lg-6 p-r-35 p-r-15-lg m-l-r-auto">
+					<div class="wrap-item-mainmenu p-b-22" style="margin-left: 100px">
+                		
+						<span class="tit2 t-center">
+				 Antecedent
+			</span>
+			<h3 class="tit-mainmenu tit10 p-b-25">
+							&nbsp;&nbsp;Items
+						</h3>
+                    </div>
+                </div>  
+
+          <div class="col-md-10 col-lg-6 p-l-35 p-l-15-lg m-l-r-auto">
+					<div class="wrap-item-mainmenu p-b-22" style="margin-left: 100px">
+						<span class="tit2 t-center">
+							Consequent
+						</span>
+						<h3 class="tit-mainmenu tit10 p-b-25">
+							&nbsp;&nbsp; Items
+						</h3>
+                    </div>
+                </div> 
+        <div style="width: 100%;height: 500px; margin: 0px  50px 50px 30px ;overflow-y: scroll;overflow-x: hidden;">
+                <table id="mytable">
+
+
+                                        {% for row in associationsEarlyMorning %}
+                                        <tr>
+                                        	<td style="padding: 20px;"><div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="#" class="name-item-mainmenu txt21">
+                                    {{ row[0] }}
+								</a>
+								<!--<div class="line-item-mainmenu bg3-pattern"></div>-->
+							</div>
+						</div>
+                                        	</td>
+                                        	<td style="padding: 20px;">
+<div class="wrap-item-mainmenu p-b-22">
+						<!-- Item mainmenu -->
+						<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="#" class="name-item-mainmenu txt21">
+									 {{ row[1] }}
+								</a>
+							</div>
+
+						</div>
+					</div>
+                                        	</td>
+                                        </tr>
+                                        {% endfor %} 
+                                           {% for row in late_morning %}
+                                        <tr>
+                                        	<td style="padding: 20px;"><div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="#" class="name-item-mainmenu txt21">
+                                    {{ row[0] }}
+								</a>
+								<!--<div class="line-item-mainmenu bg3-pattern"></div>-->
+							</div>
+						</div>
+                                        	</td>
+                                        	<td style="padding: 20px;">
+<div class="wrap-item-mainmenu p-b-22">
+						<!-- Item mainmenu -->
+						<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="#" class="name-item-mainmenu txt21">
+									 {{ row[1] }}
+								</a>
+							</div>
+
+						</div>
+					</div>
+                                        	</td>
+                                        </tr>
+                                        {% endfor %} 
+
+                                          {% for row in early_afternoon %}
+                                        <tr>
+                                        	<td style="padding: 20px;"><div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="#" class="name-item-mainmenu txt21">
+                                    {{ row[0] }}
+								</a>
+								<!--<div class="line-item-mainmenu bg3-pattern"></div>-->
+							</div>
+						</div>
+                                        	</td>
+                                        	<td style="padding: 20px;">
+<div class="wrap-item-mainmenu p-b-22">
+						<!-- Item mainmenu -->
+						<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="#" class="name-item-mainmenu txt21">
+									 {{ row[1] }}
+								</a>
+							</div>
+
+						</div>
+					</div>
+                                        	</td>
+                                        </tr>
+                                        {% endfor %} 
+                                          {% for row in late_afternoon %}
+                                        <tr>
+                                        	<td style="padding: 20px;"><div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="#" class="name-item-mainmenu txt21">
+                                    {{ row[0] }}
+								</a>
+								<!--<div class="line-item-mainmenu bg3-pattern"></div>-->
+							</div>
+						</div>
+                                        	</td>
+                                        	<td style="padding: 20px;">
+<div class="wrap-item-mainmenu p-b-22">
+						<!-- Item mainmenu -->
+						<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="#" class="name-item-mainmenu txt21">
+									 {{ row[1] }}
+								</a>
+							</div>
+
+						</div>
+					</div>
+                                        	</td>
+                                        </tr>
+                                        {% endfor %}
+</table>
+</div>
+
+			</div>
+		</div>	
+	</section>
+
+
+	{% endblock %}

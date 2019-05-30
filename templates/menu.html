@@ -1,0 +1,145 @@
+{% extends "layout.html" %}
+{% block content%}
+
+
+
+<!-- Title Page -->
+<section class="bg-title-page flex-c-m p-t-160 p-b-80 p-l-15 p-r-15"
+	style="background-image: url({{ url_for('static', filename='images/bg-title-page-01.jpg') }});">
+	<h2 class="tit6 t-center">
+		{{day.strftime("%A, %d-%m")}}
+	</h2>
+</section>
+
+
+
+
+
+<!-- Lunch -->
+<section class="section-lunch bgwhite">
+	<div class="header-lunch parallax0 parallax100"
+		style="background-image: url({{ url_for('static', filename='images/header-menu-01.jpg') }});">
+		<div class="bg1-overlay t-center p-t-170 p-b-165">
+			<h2 class="tit4 t-center">
+				Giesing
+			</h2>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row p-t-108 p-b-70">
+			<div class="col-md-8 col-lg-6 m-l-r-auto">
+
+				{% for i in range(0, 5) %}
+				<div class="blo3 flex-w flex-col-l-sm m-b-30">
+					<div class="pic-blo3 size20 bo-rad-10 hov-img-zoom m-r-28">
+						<a href="{{ url_for('findItem', day=days[0].strftime("%d-%m-%Y"),item=menus[0][i].item ,city='giesing') }}"><img src="{{ url_for('static', filename=menus[0][i].img_url) }}"
+								alt="IMG-MENU"></a>
+					</div>
+
+					<div class="text-blo3 size21 flex-col-l-m">
+						<a href="{{ url_for('findItem', day=days[0].strftime("%d-%m-%Y"),item=menus[0][i].item ,city='giesing') }}" class="txt21 m-b-3">
+							{{ menus[0][i].item }}
+						</a>
+
+						<span class="txt22 m-t-20">
+							€{{ '%0.2f'| format(menus[0][i].price|float) }}
+						</span>
+					</div>
+				</div>
+				{% endfor%}
+			</div>
+
+			<div class="col-md-8 col-lg-6 m-l-r-auto">
+				<!-- Block3 -->
+
+				{% for i in range(6, 11) %}
+				<div class="blo3 flex-w flex-col-l-sm m-b-30">
+						<div class="pic-blo3 size20 bo-rad-10 hov-img-zoom m-r-28">
+							<a href="{{ url_for('findItem', day=days[0].strftime("%d-%m-%Y"),item=menus[0][i].item ,city='giesing') }}" class="txt21 m-b-3""><img src="{{ url_for('static', filename=menus[0][i].img_url) }}"
+									alt="IMG-MENU"></a>
+						</div>
+	
+						<div class="text-blo3 size21 flex-col-l-m">
+							<a href="{{ url_for('findItem', day=days[0].strftime("%d-%m-%Y"),item=menus[0][i].item ,city='giesing') }}" class="txt21 m-b-3"" class="txt21 m-b-3">
+									{{ menus[0][i].item }}
+							</a>
+	
+							<span class="txt22 m-t-20">
+								€{{ '%0.2f'| format(menus[0][i].price|float) }}
+							</span>
+						</div>
+					</div>
+				{% endfor %}
+
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- Dinner -->
+<section class="section-dinner bgwhite">
+	<div class="header-dinner parallax0 parallax100"
+		style="background-image: url({{ url_for('static', filename='images/header-menu-02.jpg') }});">
+		<div class="bg1-overlay t-center p-t-170 p-b-165">
+			<h2 class="tit4 t-center">
+				Lehel
+			</h2>
+		</div>
+	</div>
+
+	<div class="container">
+			<div class="row p-t-108 p-b-70">
+				<div class="col-md-8 col-lg-6 m-l-r-auto">
+	
+					{% for i in range(0, 5) %}
+					<div class="blo3 flex-w flex-col-l-sm m-b-30">
+						<div class="pic-blo3 size20 bo-rad-10 hov-img-zoom m-r-28">
+							<a href="{{ url_for('findItem', day=days[0].strftime("%d-%m-%Y"),item=menus[1][i].item ,city='lehel') }}" class="txt21 m-b-3""><img src="{{ url_for('static', filename=menus[1][i].img_url) }}"
+									alt="IMG-MENU"></a>
+						</div>
+						<div class="text-blo3 size21 flex-col-l-m">
+							<a href="{{ url_for('findItem', day=days[0].strftime("%d-%m-%Y"),item=menus[1][i].item ,city='lehel') }}" class="txt21 m-b-3">
+								{{ menus[1][i].item }}
+							</a>
+	
+							<span class="txt22 m-t-20">
+								€{{ '%0.2f'| format(menus[1][i].price|float) }}
+							</span>
+						</div>
+					</div>
+					{% endfor%}
+				</div>
+	
+				<div class="col-md-8 col-lg-6 m-l-r-auto">
+					<!-- Block3 -->
+	
+					{% for i in range(6, 11) %}
+					<div class="blo3 flex-w flex-col-l-sm m-b-30">
+							<div class="pic-blo3 size20 bo-rad-10 hov-img-zoom m-r-28">
+								<a href="{{ url_for('findItem', day=days[0].strftime("%d-%m-%Y"),item=menus[1][i].item ,city='lehel') }}" class="txt21 m-b-3""><img src="{{ url_for('static', filename=menus[1][i].img_url) }}"
+										alt="IMG-MENU"></a>
+							</div>
+		
+							<div class="text-blo3 size21 flex-col-l-m">
+								<a href="{{ url_for('findItem', day=days[0].strftime("%d-%m-%Y"),item=menus[1][i].item ,city='lehel') }}" class="txt21 m-b-3"" class="txt21 m-b-3">
+										{{ menus[1][i].item }}
+								</a>
+		
+								<span class="txt22 m-t-20">
+									€{{ '%0.2f'| format(menus[1][i].price|float) }}
+								</span>
+							</div>
+						</div>
+					{% endfor %}
+	
+				</div>
+			</div>
+		</div>
+</section>
+
+
+
+
+{% endblock%}

@@ -1,0 +1,175 @@
+{% extends "layout.html" %}
+{% block content%}
+	
+	<!-- Header -->
+<!--<script>
+function searchString() {
+	var Sstring = $('#string').val();
+	$("td:contains('" + Sstring + "')").css("background", "lightgrey");
+	var n = $("td:contains('" + Sstring + "')").length;
+	$("td:contains('" + Sstring + "')")[0].scrollIntoView(true);
+}
+function clearSearch() {
+	var Sstring = $('#string').val();
+	if (Sstring != '') {
+		$("td:contains('" + Sstring + "')").css("background", "none");
+		$('#string').val('');
+	}
+}
+</script>-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script >
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#mytable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+
+
+	
+	<!-- Title Page -->
+	<section class="bg-title-page flex-c-m p-t-160 p-b-80 p-l-15 p-r-15" style="background-image: url({{ url_for('static', filename='images/blog-05.jpg') }});">
+		<h2 class="tit6 t-center">
+			Association Rules 
+
+			
+		</h2>
+
+
+	</section>
+
+<section class="section-mainmenu p-t-110 p-b-70 bg1-pattern">
+
+		<div class="section-signup bg1-pattern p-t-85 p-b-85">
+				
+			<h3 class="tit3 t-center m-b-35 m-t-5">
+				You want to find an item ?
+			</h3>
+		<form class="flex-c-m flex-w flex-col-c-m-lg p-l-5 p-r-5">
+			<!--<span class="txt5 m-10">
+				Item:
+			</span>-->
+			
+			<div class="wrap-inputname size17 bo2 bo-rad-10 bgwhite pos-relative txt10 m-10">
+				<input class="bo-rad-10 sizefull txt10 p-l-20" type="text"  id ="myInput"placeholder="Search" >
+
+				<!--<input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="string" id ="string"placeholder="Item Description" onfocus="clearSearch()" >-->
+
+			</div>
+
+			<!-- Button3 -->
+			<!--<button type="submit" class="btn3 flex-c-m size18 txt11 trans-0-4 m-10" onclick="searchString()">
+				Search
+			</button>-->
+		</form>
+
+
+
+	</section>
+
+
+	
+	<!-- Lunch -->
+	<section class="section-lunch bgwhite" 		style="background-image: url({{ url_for('static', filename='images/food-bg.png') }});background-repeat:no-repeat;background-position:100% 100%;">
+		<div class="header-lunch parallax0 parallax100" style="background-image: url({{ url_for('static', filename='images/header-menu-01.jpg') }});">
+			<div class="bg1-overlay t-center p-t-170 p-b-165">
+				<h2 class="tit4 t-center">
+					{{part}}
+				</h2>
+			</div>
+		</div>
+	<div class="container" >
+			<div class="row" style="margin-top: 100px;">
+    <div class="col-md-10 col-lg-6 p-r-35 p-r-15-lg m-l-r-auto">
+					<div class="wrap-item-mainmenu p-b-22" style="margin-left: 100px">
+                		
+						<span class="tit2 t-center">
+				 Antecedent
+			</span>
+			<h3 class="tit-mainmenu tit10 p-b-25">
+							&nbsp;&nbsp;Items
+						</h3>
+                    </div>
+                </div>  
+
+          <div class="col-md-10 col-lg-6 p-l-35 p-l-15-lg m-l-r-auto">
+					<div class="wrap-item-mainmenu p-b-22" style="margin-left: 100px">
+						<span class="tit2 t-center">
+							Consequent
+						</span>
+						<h3 class="tit-mainmenu tit10 p-b-25">
+							&nbsp;&nbsp; Items
+						</h3>
+                    </div>
+                </div> 
+        <div style="width: 100%;height: 500px; margin: 0px  50px 50px 30px ;overflow-y: scroll;overflow-x: hidden;">
+                <table id="mytable">
+
+
+                                        {% for row in x %}
+                                        <tr>
+                                        	<td style="padding: 20px;"><div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="#" class="name-item-mainmenu txt21">
+                                    {{ row[0] }}
+								</a>
+								<!--<div class="line-item-mainmenu bg3-pattern"></div>-->
+							</div>
+						</div>
+                                        	</td>
+                                        	<td style="padding: 20px;">
+<div class="wrap-item-mainmenu p-b-22">
+						<!-- Item mainmenu -->
+						<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="#" class="name-item-mainmenu txt21">
+									 {{ row[1] }}
+								</a>
+							</div>
+
+						</div>
+					</div>
+                                        	</td>
+                                        </tr>
+                                        {% endfor %} 
+
+                                         {% for row in x1 %}
+                                        <tr>
+                                        	<td style="padding: 20px;"><div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="#" class="name-item-mainmenu txt21">
+                                    {{ row[0] }}
+								</a>
+								<!--<div class="line-item-mainmenu bg3-pattern"></div>-->
+							</div>
+						</div>
+                                        	</td>
+                                        	<td style="padding: 20px;">
+<div class="wrap-item-mainmenu p-b-22">
+						<!-- Item mainmenu -->
+						<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="#" class="name-item-mainmenu txt21">
+									 {{ row[1] }}
+								</a>
+							</div>
+
+						</div>
+					</div>
+                                        	</td>
+                                        </tr>
+                                        {% endfor %}
+</table>
+</div>
+
+			</div>
+		</div>	
+	</section>
+
+
+	
+	{% endblock %}

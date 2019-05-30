@@ -1,0 +1,310 @@
+Antecedent;Consequent
+ Beilage a 0,20|; Kornsemmel 0,40|  Obstteller|  Suppe 1,00| 
+ Beilage a 0,20|  Kornsemmel 0,40 ; Obstteller|  Suppe 1,00| 
+ Beilage a 0,20|  Obstteller ; Kornsemmel 0,40|  Suppe 1,00| 
+ Beilage a 0,20|  Suppe 1,00 ; Kornsemmel 0,40|  Obstteller| 
+ Beilage a 0,20|  Kornsemmel 0,40|  Obstteller ; Suppe 1,00   
+ Beilage a 0,20|  Kornsemmel 0,40|  Suppe 1,00 ; Obstteller   
+ Beilage a 0,20|  Obstteller|  Suppe 1,00 ; Kornsemmel 0,40   
+ Kornsemmel 0,40|  Obstteller|  Suppe 1,00 ; Beilage a 0,20   
+ belegte Backw. 1,40|; Breze 0,65|  Obst 0,40|  SalatTeller|  Suppe 1,00| 
+ Breze 0,65|  belegte Backw. 1,40 ; Obst 0,40|  SalatTeller|  Suppe 1,00| 
+ Obst 0,40|  belegte Backw. 1,40 ; Breze 0,65|  SalatTeller|  Suppe 1,00| 
+ Obst 0,40|  Suppe 1,00 ; Breze 0,65|  SalatTeller| 
+ Suppe 1,00|  belegte Backw. 1,40 ; Breze 0,65|  Obst 0,40|  SalatTeller| 
+ SalatTeller|  belegte Backw. 1,40 ; Breze 0,65|  Obst 0,40|  Suppe 1,00| 
+ Breze 0,65|  Obst 0,40|  Suppe 1,00 ; SalatTeller   
+ Breze 0,65|  Obst 0,40|  belegte Backw. 1,40 ; SalatTeller|  Suppe 1,00| 
+ Breze 0,65|  Suppe 1,00|  belegte Backw. 1,40 ; Obst 0,40|  SalatTeller| 
+ Obst 0,40|  Suppe 1,00|  belegte Backw. 1,40 ; Breze 0,65|  SalatTeller| 
+ Breze 0,65|  SalatTeller|  belegte Backw. 1,40 ; Obst 0,40|  Suppe 1,00| 
+ Obst 0,40|  SalatTeller|  belegte Backw. 1,40 ; Breze 0,65|  Suppe 1,00| 
+ Obst 0,40|  SalatTeller|  Suppe 1,00 ; Breze 0,65   
+ SalatTeller|  Suppe 1,00|  belegte Backw. 1,40 ; Breze 0,65|  Obst 0,40| 
+ Breze 0,65|  Obst 0,40|  SalatTeller|  Suppe 1,00 ; belegte Backw. 1,40   
+ Breze 0,65|  Obst 0,40|  SalatTeller|  belegte Backw. 1,40 ; Suppe 1,00   
+ Breze 0,65|  Obst 0,40|  Suppe 1,00|  belegte Backw. 1,40 ; SalatTeller   
+ Breze 0,65|  SalatTeller|  Suppe 1,00|  belegte Backw. 1,40 ; Obst 0,40   
+ Obst 0,40|  SalatTeller|  Suppe 1,00|  belegte Backw. 1,40 ; Breze 0,65   
+ Währungsumstellung|; Key/Card-Aufladung   
+ BIO Molkerei 0,50|  BeiwerkTeller ; Obstteller|  Salat Schale| 
+ BIO Molkerei 0,50|  Salat Schale ; BeiwerkTeller|  Obstteller| 
+ BIO Molkerei 0,50|  BeiwerkTeller|  Obstteller ; Salat Schale   
+ BIO Molkerei 0,50|  BeiwerkTeller|  Salat Schale ; Obstteller   
+ BIO Molkerei 0,50|  Obstteller|  Salat Schale ; BeiwerkTeller   
+ BeiwerkTeller|  Obstteller|  Salat Schale ; BIO Molkerei 0,50   
+ BIO Molkerei 0,50|  Beilage a 0,45 ; Obstteller   
+ BIO Molkerei 0,50|  Salat Port.  0,60 ; Beilage a 0,45|  Obstteller| 
+ BIO Molkerei 0,50|  Obstteller|  Salat Port.  0,60 ; Beilage a 0,45   
+ BIO Molkerei 0,50|  Obstteller ; Beilage a 0,45   
+ Beilage a 0,45|  Beilage a 0,45 ; Salat Port.  0,60   
+ BIO Molkerei 0,50|  Beilage a 0,45|  Beilage a 0,45 ; Obstteller   
+ Beilage a 0,45|  Beilage a 0,45|  Obstteller ; Salat Port.  0,60   
+ Butterbreze 1,10|; Salat Schale   
+ BeiwerkSchale|  Butterbreze 1,10 ; Dessert a 1,60|  Fixer Rabatt/Aufschl.|  Salat Schale| 
+ BeiwerkSchale|  Salat Schale ; Dessert a 1,60|  Fixer Rabatt/Aufschl.| 
+ Butterbreze 1,10|  Fixer Rabatt/Aufschl. ; BeiwerkSchale|  Dessert a 1,60|  Salat Schale| 
+ Fixer Rabatt/Aufschl.|  Salat Schale ; Dessert a 1,60   
+ Butterbreze 1,10|  Dessert a 1,60 ; BeiwerkSchale|  Fixer Rabatt/Aufschl.|  Salat Schale| 
+ BeiwerkSchale|  Fixer Rabatt/Aufschl. ; Dessert a 1,60|  Salat Schale| 
+ BeiwerkSchale|  Dessert a 1,60 ; Fixer Rabatt/Aufschl.|  Salat Schale| 
+ BeiwerkSchale|  Butterbreze 1,10|  Fixer Rabatt/Aufschl. ; Dessert a 1,60|  Salat Schale| 
+ BeiwerkSchale|  Butterbreze 1,10|  Salat Schale ; Dessert a 1,60|  Fixer Rabatt/Aufschl.| 
+ BeiwerkSchale|  Fixer Rabatt/Aufschl.|  Salat Schale ; Dessert a 1,60   
+ Butterbreze 1,10|  Fixer Rabatt/Aufschl.|  Salat Schale ; BeiwerkSchale|  Dessert a 1,60| 
+ BeiwerkSchale|  Butterbreze 1,10|  Dessert a 1,60 ; Fixer Rabatt/Aufschl.|  Salat Schale| 
+ BeiwerkSchale|  Dessert a 1,60|  Salat Schale ; Fixer Rabatt/Aufschl.   
+ Butterbreze 1,10|  Dessert a 1,60|  Salat Schale ; BeiwerkSchale|  Fixer Rabatt/Aufschl.| 
+ Butterbreze 1,10|  Dessert a 1,60|  Fixer Rabatt/Aufschl. ; BeiwerkSchale|  Salat Schale| 
+ Dessert a 1,60|  Fixer Rabatt/Aufschl.|  Salat Schale ; BeiwerkSchale   
+ BeiwerkSchale|  Dessert a 1,60|  Fixer Rabatt/Aufschl. ; Salat Schale   
+ BeiwerkSchale|  Butterbreze 1,10|  Dessert a 1,60|  Fixer Rabatt/Aufschl. ; Salat Schale   
+ BeiwerkSchale|  Butterbreze 1,10|  Dessert a 1,60|  Salat Schale ; Fixer Rabatt/Aufschl.   
+ BeiwerkSchale|  Butterbreze 1,10|  Fixer Rabatt/Aufschl.|  Salat Schale ; Dessert a 1,60   
+ BeiwerkSchale|  Dessert a 1,60|  Fixer Rabatt/Aufschl.|  Salat Schale ; Butterbreze 1,10   
+ Butterbreze 1,10|  Dessert a 1,60|  Fixer Rabatt/Aufschl.|  Salat Schale ; BeiwerkSchale   
+ BIO Joghurt Frucht|  Molkereiprodukte 0,65 ; O-Saft frisch   
+ BIO Joghurt Frucht|  O-Saft frisch ; Molkereiprodukte 0,65   
+ Molkereiprodukte 0,65|  O-Saft frisch ; BIO Joghurt Frucht   
+ BIO Joghurt Frucht|  Breze 0,65 ; Dessert a 0,60|  Suppe 1,00| 
+ BIO Joghurt Frucht|  Dessert a 0,60 ; Breze 0,65|  Suppe 1,00| 
+ Breze 0,65|  Dessert a 0,60 ; Suppe 1,00   
+ BIO Joghurt Frucht|  Suppe 1,00 ; Breze 0,65|  Dessert a 0,60| 
+ BIO Joghurt Frucht|  Breze 0,65|  Dessert a 0,60 ; Suppe 1,00   
+ BIO Joghurt Frucht|  Breze 0,65|  Suppe 1,00 ; Dessert a 0,60   
+ BIO Joghurt Frucht|  Dessert a 0,60|  Suppe 1,00 ; Breze 0,65   
+ Breze 0,65|  Dessert a 0,60|  Suppe 1,00 ; BIO Joghurt Frucht   
+ Backwaren Kuchen 1,30|  Dessert a 0,60 ; O-Saft frisch|  Tagessuppe a 0,30| 
+ Backwaren Kuchen 1,30|  Tagessuppe a 0,30 ; Dessert a 0,60|  O-Saft frisch| 
+ Dessert a 0,60|  Tagessuppe a 0,30 ; O-Saft frisch   
+ Backwaren Kuchen 1,30|  O-Saft frisch ; Dessert a 0,60|  Tagessuppe a 0,30| 
+ Dessert a 0,60|  O-Saft frisch ; Tagessuppe a 0,30   
+ Backwaren Kuchen 1,30|  Dessert a 0,60|  O-Saft frisch ; Tagessuppe a 0,30   
+ Backwaren Kuchen 1,30|  Dessert a 0,60|  Tagessuppe a 0,30 ; O-Saft frisch   
+ Backwaren Kuchen 1,30|  O-Saft frisch|  Tagessuppe a 0,30 ; Dessert a 0,60   
+ Dessert a 0,60|  O-Saft frisch|  Tagessuppe a 0,30 ; Backwaren Kuchen 1,30   
+ Breze 0,65|  Dessert a 0,80 ; SalatTeller   
+ Breze 0,65|  Port. Butter Honig ec ; Dessert a 0,80|  SalatTeller| 
+ Dessert a 0,80|  Port. Butter Honig ec ; Breze 0,65|  SalatTeller| 
+ Port. Butter Honig ec|  SalatTeller ; Breze 0,65|  Dessert a 0,80| 
+ Breze 0,65|  Dessert a 0,80|  Port. Butter Honig ec ; SalatTeller   
+ Breze 0,65|  Dessert a 0,80|  SalatTeller ; Port. Butter Honig ec   
+ Breze 0,65|  Port. Butter Honig ec|  SalatTeller ; Dessert a 0,80   
+ Dessert a 0,80|  Port. Butter Honig ec|  SalatTeller ; Breze 0,65   
+ Kornsemmel 0,40|  Port. Butter Honig ec ; O-Saft frisch|  Salat Schale|  Tagessuppe a 0,30| 
+ Port. Butter Honig ec|  Salat Schale ; Kornsemmel 0,40|  O-Saft frisch|  Tagessuppe a 0,30| 
+ Port. Butter Honig ec|  Tagessuppe a 0,30 ; Kornsemmel 0,40|  O-Saft frisch|  Salat Schale| 
+ Kornsemmel 0,40|  Port. Butter Honig ec|  Salat Schale ; O-Saft frisch|  Tagessuppe a 0,30| 
+ Kornsemmel 0,40|  Port. Butter Honig ec|  Tagessuppe a 0,30 ; O-Saft frisch|  Salat Schale| 
+ Kornsemmel 0,40|  Salat Schale|  Tagessuppe a 0,30 ; O-Saft frisch   
+ Port. Butter Honig ec|  Salat Schale|  Tagessuppe a 0,30 ; Kornsemmel 0,40|  O-Saft frisch| 
+ O-Saft frisch|  Port. Butter Honig ec ; Kornsemmel 0,40|  Salat Schale|  Tagessuppe a 0,30| 
+ O-Saft frisch|  Port. Butter Honig ec|  Salat Schale ; Kornsemmel 0,40|  Tagessuppe a 0,30| 
+ O-Saft frisch|  Port. Butter Honig ec|  Tagessuppe a 0,30 ; Kornsemmel 0,40|  Salat Schale| 
+ O-Saft frisch|  Salat Schale|  Tagessuppe a 0,30 ; Kornsemmel 0,40   
+ Kornsemmel 0,40|  O-Saft frisch|  Port. Butter Honig ec ; Salat Schale|  Tagessuppe a 0,30| 
+ Kornsemmel 0,40|  O-Saft frisch|  Tagessuppe a 0,30 ; Salat Schale   
+ Kornsemmel 0,40|  O-Saft frisch|  Salat Schale ; Tagessuppe a 0,30   
+ Kornsemmel 0,40|  O-Saft frisch|  Port. Butter Honig ec|  Salat Schale ; Tagessuppe a 0,30   
+ Kornsemmel 0,40|  O-Saft frisch|  Port. Butter Honig ec|  Tagessuppe a 0,30 ; Salat Schale   
+ Kornsemmel 0,40|  O-Saft frisch|  Salat Schale|  Tagessuppe a 0,30 ; Port. Butter Honig ec   
+ Kornsemmel 0,40|  Port. Butter Honig ec|  Salat Schale|  Tagessuppe a 0,30 ; O-Saft frisch   
+ O-Saft frisch|  Port. Butter Honig ec|  Salat Schale|  Tagessuppe a 0,30 ; Kornsemmel 0,40   
+ Obstbecher 0,90|  SalatTeller ; Tagessuppe a 0,30   
+ Klassik Semmel 0,30|  Obstbecher 0,90 ; Dessert a 1,60|  Salat Schale|  Suppe 1,00|  Tagessuppe a 0,30| 
+ Klassik Semmel 0,30|  Salat Schale ; Dessert a 1,60|  Suppe 1,00|  Tagessuppe a 0,30| 
+ Obstbecher 0,90|  Salat Schale ; Dessert a 1,60|  Klassik Semmel 0,30|  Suppe 1,00|  Tagessuppe a 0,30| 
+ Klassik Semmel 0,30|  Obstbecher 0,90|  Salat Schale ; Dessert a 1,60|  Suppe 1,00|  Tagessuppe a 0,30| 
+ Klassik Semmel 0,30|  Obstbecher 0,90|  Tagessuppe a 0,30 ; Dessert a 1,60|  Salat Schale|  Suppe 1,00| 
+ Klassik Semmel 0,30|  Salat Schale|  Tagessuppe a 0,30 ; Dessert a 1,60|  Suppe 1,00| 
+ Obstbecher 0,90|  Salat Schale|  Tagessuppe a 0,30 ; Dessert a 1,60|  Klassik Semmel 0,30|  Suppe 1,00| 
+ Obstbecher 0,90|  Suppe 1,00 ; Dessert a 1,60|  Klassik Semmel 0,30|  Salat Schale|  Tagessuppe a 0,30| 
+ Klassik Semmel 0,30|  Obstbecher 0,90|  Suppe 1,00 ; Dessert a 1,60|  Salat Schale|  Tagessuppe a 0,30| 
+ Klassik Semmel 0,30|  Salat Schale|  Suppe 1,00 ; Dessert a 1,60|  Tagessuppe a 0,30| 
+ Obstbecher 0,90|  Salat Schale|  Suppe 1,00 ; Dessert a 1,60|  Klassik Semmel 0,30|  Tagessuppe a 0,30| 
+ Obstbecher 0,90|  Suppe 1,00|  Tagessuppe a 0,30 ; Dessert a 1,60|  Klassik Semmel 0,30|  Salat Schale| 
+ Salat Schale|  Suppe 1,00|  Tagessuppe a 0,30 ; Dessert a 1,60   
+ Klassik Semmel 0,30|  Suppe 1,00|  Tagessuppe a 0,30 ; Dessert a 1,60   
+ Klassik Semmel 0,30|  Obstbecher 0,90|  Salat Schale|  Suppe 1,00 ; Dessert a 1,60|  Tagessuppe a 0,30| 
+ Klassik Semmel 0,30|  Obstbecher 0,90|  Salat Schale|  Tagessuppe a 0,30 ; Dessert a 1,60|  Suppe 1,00| 
+ Klassik Semmel 0,30|  Obstbecher 0,90|  Suppe 1,00|  Tagessuppe a 0,30 ; Dessert a 1,60|  Salat Schale| 
+ Klassik Semmel 0,30|  Salat Schale|  Suppe 1,00|  Tagessuppe a 0,30 ; Dessert a 1,60   
+ Obstbecher 0,90|  Salat Schale|  Suppe 1,00|  Tagessuppe a 0,30 ; Dessert a 1,60|  Klassik Semmel 0,30| 
+ Dessert a 1,60|  Obstbecher 0,90 ; Klassik Semmel 0,30|  Salat Schale|  Suppe 1,00|  Tagessuppe a 0,30| 
+ Dessert a 1,60|  Obstbecher 0,90|  Salat Schale ; Klassik Semmel 0,30|  Suppe 1,00|  Tagessuppe a 0,30| 
+ Dessert a 1,60|  Obstbecher 0,90|  Suppe 1,00 ; Klassik Semmel 0,30|  Salat Schale|  Tagessuppe a 0,30| 
+ Dessert a 1,60|  Salat Schale|  Suppe 1,00 ; Tagessuppe a 0,30   
+ Dessert a 1,60|  Klassik Semmel 0,30|  Obstbecher 0,90 ; Salat Schale|  Suppe 1,00|  Tagessuppe a 0,30| 
+ Dessert a 1,60|  Obstbecher 0,90|  Tagessuppe a 0,30 ; Klassik Semmel 0,30|  Salat Schale|  Suppe 1,00| 
+ Dessert a 1,60|  Klassik Semmel 0,30|  Salat Schale ; Suppe 1,00|  Tagessuppe a 0,30| 
+ Dessert a 1,60|  Salat Schale|  Tagessuppe a 0,30 ; Suppe 1,00   
+ Dessert a 1,60|  Klassik Semmel 0,30|  Tagessuppe a 0,30 ; Suppe 1,00   
+ Dessert a 1,60|  Klassik Semmel 0,30|  Obstbecher 0,90|  Salat Schale ; Suppe 1,00|  Tagessuppe a 0,30| 
+ Dessert a 1,60|  Klassik Semmel 0,30|  Obstbecher 0,90|  Suppe 1,00 ; Salat Schale|  Tagessuppe a 0,30| 
+ Dessert a 1,60|  Klassik Semmel 0,30|  Salat Schale|  Suppe 1,00 ; Tagessuppe a 0,30   
+ Dessert a 1,60|  Obstbecher 0,90|  Salat Schale|  Suppe 1,00 ; Klassik Semmel 0,30|  Tagessuppe a 0,30| 
+ Dessert a 1,60|  Obstbecher 0,90|  Salat Schale|  Tagessuppe a 0,30 ; Klassik Semmel 0,30|  Suppe 1,00| 
+ Dessert a 1,60|  Obstbecher 0,90|  Suppe 1,00|  Tagessuppe a 0,30 ; Klassik Semmel 0,30|  Salat Schale| 
+ Dessert a 1,60|  Salat Schale|  Suppe 1,00|  Tagessuppe a 0,30 ; Klassik Semmel 0,30   
+ Dessert a 1,60|  Klassik Semmel 0,30|  Obstbecher 0,90|  Tagessuppe a 0,30 ; Salat Schale|  Suppe 1,00| 
+ Dessert a 1,60|  Klassik Semmel 0,30|  Suppe 1,00|  Tagessuppe a 0,30 ; Salat Schale   
+ Dessert a 1,60|  Klassik Semmel 0,30|  Salat Schale|  Tagessuppe a 0,30 ; Suppe 1,00   
+ Dessert a 1,60|  Klassik Semmel 0,30|  Obstbecher 0,90|  Salat Schale|  Suppe 1,00 ; Tagessuppe a 0,30   
+ Dessert a 1,60|  Klassik Semmel 0,30|  Obstbecher 0,90|  Salat Schale|  Tagessuppe a 0,30 ; Suppe 1,00   
+ Dessert a 1,60|  Klassik Semmel 0,30|  Obstbecher 0,90|  Suppe 1,00|  Tagessuppe a 0,30 ; Salat Schale   
+ Dessert a 1,60|  Klassik Semmel 0,30|  Salat Schale|  Suppe 1,00|  Tagessuppe a 0,30 ; Obstbecher 0,90   
+ Dessert a 1,60|  Obstbecher 0,90|  Salat Schale|  Suppe 1,00|  Tagessuppe a 0,30 ; Klassik Semmel 0,30   
+ Klassik Semmel 0,30|  Obstbecher 0,90|  Salat Schale|  Suppe 1,00|  Tagessuppe a 0,30 ; Dessert a 1,60   
+ Kuchenhappen 1,40|  Obstbecher 0,90 ; Beilage a 0,45   
+ Dessert a 0,80|  Molkereiprodukte 0,65 ; Suppe 1,00   
+ Molkereiprodukte 0,65|  Suppe 1,00 ; Dessert a 0,80   
+ BeiwerkSchale|  Kuchenhappen 1,40 ; Salat Port.  0,60   
+ BeiwerkSchale|  Salat Port.  0,60 ; Kuchenhappen 1,40   
+ BIO Molkerei 0,80|  Breze 0,65 ; Dessert a 1,60   
+ BIO Molkerei 0,80|  Dessert a 1,60 ; Breze 0,65   
+ Kuchenhappen 1,40|  SalatTeller ; Salat Port.  0,60   
+" Kuchenhappen 1,40|  Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen  "; Tagessuppe a 0,30   
+ Kuchenhappen 1,40|  Tagessuppe a 0,30 ;" Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen    "
+ Breze 0,65|  Obst 0,40 ; SalatTeller   
+ Obst 0,40|  SalatTeller ; Breze 0,65   
+ Fruchtsaft frisch|  Proz. Rabatt/Aufschl. ;" Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen |  Tagessuppe a 0,30| "
+" Fruchtsaft frisch|  Proz. Rabatt/Aufschl.|  Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen  "; Tagessuppe a 0,30   
+ Fruchtsaft frisch|  Proz. Rabatt/Aufschl.|  Tagessuppe a 0,30 ;" Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen    "
+" Fruchtsaft frisch|  Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen |  Tagessuppe a 0,30 "; Proz. Rabatt/Aufschl.   
+ Proz. Rabatt/Aufschl.|  Schankgetränke ; Gericht frei|  Salat Port.  0,60| 
+ Salat Port.  0,60|  Schankgetränke ; Gericht frei   
+ Gericht frei|  Proz. Rabatt/Aufschl.|  Schankgetränke ; Salat Port.  0,60   
+ Gericht frei|  Salat Port.  0,60|  Schankgetränke ; Proz. Rabatt/Aufschl.   
+ Proz. Rabatt/Aufschl.|  Salat Port.  0,60|  Schankgetränke ; Gericht frei   
+ O-Saft frisch|  Proz. Rabatt/Aufschl. ; Breze 0,65|  SalatTeller| 
+ Breze 0,65|  O-Saft frisch|  Proz. Rabatt/Aufschl. ; SalatTeller   
+ Breze 0,65|  O-Saft frisch|  SalatTeller ; Proz. Rabatt/Aufschl.   
+ O-Saft frisch|  Proz. Rabatt/Aufschl.|  SalatTeller ; Breze 0,65   
+ Breze 0,65|  Proz. Rabatt/Aufschl. ; SalatTeller   
+ Gericht frei|  Proz. Rabatt/Aufschl. ; Salat Port.  0,60   
+ Proz. Rabatt/Aufschl.|  Salat Port.  0,60 ; Gericht frei   
+ Gericht frei|  Proz. Rabatt/Aufschl.|  Tagessuppe a 0,30 ; Salat Port.  0,60   
+ Proz. Rabatt/Aufschl.|  Salat Port.  0,60|  Tagessuppe a 0,30 ; Gericht frei   
+ Salat Schale|  Semmeln ; Dessert a 1,60   
+ Schankgetränke|  Semmeln ; Dessert a 1,60|  Salat Schale| 
+ Dessert a 1,60|  Schankgetränke ; Salat Schale|  Semmeln| 
+ Dessert a 1,60|  Salat Schale|  Schankgetränke ; Semmeln   
+ Dessert a 1,60|  Salat Schale|  Semmeln ; Schankgetränke   
+ Dessert a 1,60|  Schankgetränke|  Semmeln ; Salat Schale   
+ Salat Schale|  Schankgetränke|  Semmeln ; Dessert a 1,60   
+ BeiwerkTeller|  Schankgetränke ; Salat Schale|  SalatTeller| 
+ SalatTeller|  Schankgetränke ; BeiwerkTeller|  Salat Schale| 
+ BeiwerkTeller|  Salat Schale|  SalatTeller ; Schankgetränke   
+ BeiwerkTeller|  Salat Schale|  Schankgetränke ; SalatTeller   
+ BeiwerkTeller|  SalatTeller|  Schankgetränke ; Salat Schale   
+ Salat Schale|  SalatTeller|  Schankgetränke ; BeiwerkTeller   
+ Beilage a 0,45|  Molkereiprodukte 0,25 ; Salat Port.  0,60   
+ Molkereiprodukte 0,25|  Salat Schale ;" Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen |  Suppe 1,00| "
+ Molkereiprodukte 0,25|  Suppe 1,00 ;" Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen |  Salat Schale| "
+" Molkereiprodukte 0,25|  Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen  "; Salat Schale|  Suppe 1,00| 
+" Molkereiprodukte 0,25|  Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen |  Salat Schale "; Suppe 1,00   
+" Molkereiprodukte 0,25|  Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen |  Suppe 1,00 "; Salat Schale   
+ Molkereiprodukte 0,25|  Salat Schale|  Suppe 1,00 ;" Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen    "
+ Klassik Semmel 0,30|  Semmeln ; Dessert a 1,60|  SalatTeller| 
+ Dessert a 1,60|  Klassik Semmel 0,30|  Semmeln ; SalatTeller   
+ Dessert a 1,60|  SalatTeller|  Semmeln ; Klassik Semmel 0,30   
+ Klassik Semmel 0,30|  SalatTeller|  Semmeln ; Dessert a 1,60   
+ BeiwerkTeller|  Semmeln ; Tagessuppe a 0,30   
+ BeiwerkTeller|  Tagessuppe a 0,30 ; Semmeln   
+ Semmeln|  Suppe 1,00 ; Tagessuppe a 0,30   
+ BeiwerkTeller|  Salat Port.  0,60 ; SalatTeller   
+ Breze 0,65|  Fixer Rabatt/Aufschl. ; Dessert a 1,60|  SalatTeller| 
+ Breze 0,65|  Dessert a 1,60|  Fixer Rabatt/Aufschl. ; SalatTeller   
+ Breze 0,65|  Dessert a 1,60|  SalatTeller ; Fixer Rabatt/Aufschl.   
+ Breze 0,65|  Fixer Rabatt/Aufschl.|  SalatTeller ; Dessert a 1,60   
+ Fixer Rabatt/Aufschl.|  Gericht frei ; Suppe 1,00   
+ Fixer Rabatt/Aufschl.|  Suppe 1,00 ; Gericht frei   
+ Dessert a 0,80|  Fixer Rabatt/Aufschl. ;" Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen    "
+ Fixer Rabatt/Aufschl.|  Salat Port.  0,60 ;" Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen    "
+ Fixer Rabatt/Aufschl.|  O-Saft frisch ; Dessert a 1,60   
+" Dessert a 1,60|  Fixer Rabatt/Aufschl.|  Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen  "; O-Saft frisch   
+" Fixer Rabatt/Aufschl.|  O-Saft frisch|  Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen  "; Dessert a 1,60   
+ Key/Card-Rücknahme|  Obstteller ; Beilage a 0,45   
+ Dessert a 1,60|  Key/Card-Rücknahme ; Beilage a 0,45   
+ Breze 0,65|  Key/Card-Rücknahme ; SalatTeller   
+ Key/Card-Rücknahme|  Kornsemmel 0,40 ; SalatTeller   
+ Dessert a 0,60|  Fruchtsaft frisch ; Salat Port.  0,60   
+ Dessert a 0,60|  Salat Port.  0,60 ; Fruchtsaft frisch   
+ Fruchtsaft frisch|  Kornsemmel 0,40 ; SalatTeller   
+ Dessert a 1,60|  Kornsemmel 0,40 ; Tagessuppe a 0,30   
+ Dessert a 0,80|  Kornsemmel 0,40 ; Tagessuppe a 0,30   
+ Breze 0,65|  Kornsemmel 0,40 ; SalatTeller   
+ Kornsemmel 0,40|  Salat Port.  0,60 ; Obstteller|  Salat Schale| 
+ Kornsemmel 0,40|  Obstteller|  Salat Port.  0,60 ; Salat Schale   
+ Kornsemmel 0,40|  Obstteller|  Salat Schale ; Salat Port.  0,60   
+ Kornsemmel 0,40|  Salat Port.  0,60|  Salat Schale ; Obstteller   
+ Obstteller|  Salat Port.  0,60|  Salat Schale ; Kornsemmel 0,40   
+" Kornsemmel 0,40|  Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen  "; Tagessuppe a 0,30   
+ Dessert a 0,80|  Klassik Semmel 0,30 ; Beilage a 0,45   
+ Fruchtsaft frisch|  Klassik Semmel 0,30 ; SalatTeller|  Tagessuppe a 0,30| 
+ Fruchtsaft frisch|  Klassik Semmel 0,30|  SalatTeller ; Tagessuppe a 0,30   
+ Fruchtsaft frisch|  Klassik Semmel 0,30|  Tagessuppe a 0,30 ; SalatTeller   
+ Fruchtsaft frisch|  SalatTeller|  Tagessuppe a 0,30 ; Klassik Semmel 0,30   
+ Breze 0,65|  Klassik Semmel 0,30 ; SalatTeller   
+ Breze 0,65|  Obstteller ; Tagessuppe a 0,30   
+ Obstteller|  Tagessuppe a 0,30 ; Breze 0,65   
+ Fruchtsaft frisch|  Obstteller ; Beilage a 0,45   
+ Beilage a 0,45|  Beilage a 0,45|  Salat Port.  0,60 ; Obstteller   
+" Breze 0,65|  Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen  "; Dessert a 1,60|  Tagessuppe a 0,30| 
+" Breze 0,65|  Dessert a 1,60|  Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen  "; Tagessuppe a 0,30   
+" Breze 0,65|  Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen |  Tagessuppe a 0,30 "; Dessert a 1,60   
+ Fruchtsaft frisch|  O-Saft frisch ; Beilage a 0,45   
+ Beilage a 0,45|  Breze 0,65|  Fruchtsaft frisch ; O-Saft frisch   
+ Beilage a 0,45|  Breze 0,65|  O-Saft frisch ; Fruchtsaft frisch   
+ Beilage a 0,45|  Fruchtsaft frisch|  O-Saft frisch ; Breze 0,65   
+ Breze 0,65|  Fruchtsaft frisch|  O-Saft frisch ; Beilage a 0,45   
+" Gericht frei|  Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen  "; O-Saft frisch   
+ Dessert a 0,80|  Fruchtsaft frisch|  Suppe 1,00 ; Salat Port.  0,60   
+ Fruchtsaft frisch|  Salat Port.  0,60|  Suppe 1,00 ; Dessert a 0,80   
+ Dessert a 0,80|  Salat Schale|  Salat Schale ;" O-Saft frisch|  Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen |  Suppe 1,00| "
+ O-Saft frisch|  Salat Schale|  Salat Schale ;" Dessert a 0,80|  Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen |  Suppe 1,00| "
+ Salat Schale|  Salat Schale|  Suppe 1,00 ;" Dessert a 0,80|  O-Saft frisch|  Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen | "
+ Dessert a 0,80|  O-Saft frisch|  Suppe 1,00 ;" Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen    "
+ Dessert a 0,80|  O-Saft frisch|  Salat Schale|  Salat Schale ;" Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen |  Suppe 1,00| "
+ Dessert a 0,80|  Salat Schale|  Salat Schale|  Suppe 1,00 ;" O-Saft frisch|  Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen | "
+ O-Saft frisch|  Salat Schale|  Salat Schale|  Suppe 1,00 ;" Dessert a 0,80|  Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen | "
+" Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen |  Salat Schale|  Salat Schale "; Dessert a 0,80|  O-Saft frisch|  Suppe 1,00| 
+" O-Saft frisch|  Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen |  Salat Schale|  Salat Schale "; Dessert a 0,80|  Suppe 1,00| 
+" Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen |  Salat Schale|  Salat Schale|  Suppe 1,00 "; Dessert a 0,80|  O-Saft frisch| 
+" Dessert a 0,80|  Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen |  Suppe 1,00 "; O-Saft frisch   
+" Dessert a 0,80|  Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen |  Salat Schale|  Salat Schale "; O-Saft frisch|  Suppe 1,00| 
+" Dessert a 0,80|  O-Saft frisch|  Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen  "; Suppe 1,00   
+" Dessert a 0,80|  O-Saft frisch|  Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen |  Suppe 1,00 "; Salat Schale   
+" Dessert a 0,80|  O-Saft frisch|  Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen |  Salat Schale|  Salat Schale "; Suppe 1,00   
+ Dessert a 0,80|  O-Saft frisch|  Salat Schale|  Salat Schale|  Suppe 1,00 ;" Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen    "
+" Dessert a 0,80|  Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen |  Salat Schale|  Salat Schale|  Suppe 1,00 "; O-Saft frisch   
+" O-Saft frisch|  Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen |  Salat Schale|  Salat Schale|  Suppe 1,00 "; Dessert a 0,80   
+ Dessert a 0,80|  O-Saft frisch|  Salat Schale ;" Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen |  Suppe 1,00| "
+ Dessert a 0,80|  Salat Schale|  Suppe 1,00 ;" O-Saft frisch|  Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen | "
+" O-Saft frisch|  Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen |  Suppe 1,00 "; Salat Schale   
+" Dessert a 0,80|  O-Saft frisch|  Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen |  Salat Schale "; Suppe 1,00   
+ Dessert a 0,80|  O-Saft frisch|  Salat Schale|  Suppe 1,00 ;" Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen    "
+" Dessert a 0,80|  Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen |  Salat Schale|  Suppe 1,00 "; O-Saft frisch   
+" O-Saft frisch|  Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen |  Salat Schale|  Suppe 1,00 "; Dessert a 0,80   
+ Dessert a 0,80|  Dessert a 1,60 ; Salat Port.  0,60|  Tagessuppe a 0,30| 
+ Dessert a 0,80|  Dessert a 1,60|  Salat Port.  0,60 ; Tagessuppe a 0,30   
+ Dessert a 0,80|  Dessert a 1,60|  Tagessuppe a 0,30 ; Salat Port.  0,60   
+ Dessert a 0,80|  Salat Port.  0,60|  Tagessuppe a 0,30 ; Dessert a 1,60   
+ Dessert a 1,60|  Salat Port.  0,60|  Tagessuppe a 0,30 ; Dessert a 0,80   
+ Dessert a 0,80|  Dessert a 0,80 ; Beilage a 0,45|  O-Saft frisch|  Salat Port.  0,60| 
+ Dessert a 0,80|  Dessert a 0,80|  O-Saft frisch ; Beilage a 0,45|  Salat Port.  0,60| 
+ Dessert a 0,80|  Dessert a 0,80|  Salat Port.  0,60 ; Beilage a 0,45|  O-Saft frisch| 
+ Beilage a 0,45|  Dessert a 0,80|  Dessert a 0,80 ; O-Saft frisch|  Salat Port.  0,60| 
+ Beilage a 0,45|  Dessert a 0,80|  Dessert a 0,80|  O-Saft frisch ; Salat Port.  0,60   
+ Beilage a 0,45|  Dessert a 0,80|  Dessert a 0,80|  Salat Port.  0,60 ; O-Saft frisch   
+ Dessert a 0,80|  Dessert a 0,80|  O-Saft frisch|  Salat Port.  0,60 ; Beilage a 0,45   
+ Beilage a 0,45|  Dessert a 0,80|  O-Saft frisch ; Salat Port.  0,60   
+ Dessert a 0,80|  O-Saft frisch|  Salat Port.  0,60 ; Beilage a 0,45   
+ Dessert a 1,60|  Dessert a 1,60 ; Tagessuppe a 0,30   
+ Dessert a 1,60|  Dessert a 1,60|  Suppe 1,00 ; Tagessuppe a 0,30   
+ Dessert a 1,60|  Dessert a 1,60|  Tagessuppe a 0,30 ; Suppe 1,00   
+" Dessert a 1,60|  Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen |  SalatTeller "; Suppe 1,00   
+" Risotto ""Brunoise"" mit Bulgur und Putenbruststreifen |  SalatTeller|  Suppe 1,00 "; Dessert a 1,60   
+ SalatTeller|  SalatTeller ; Suppe 1,00   
+ Beilage a 0,45|  Salat Port.  0,60|  SalatTeller ; Tagessuppe a 0,30   
+ Beilage a 0,45|  Salat Port.  0,60|  Tagessuppe a 0,30 ; SalatTeller   
